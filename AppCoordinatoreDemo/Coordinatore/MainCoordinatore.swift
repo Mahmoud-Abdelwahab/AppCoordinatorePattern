@@ -29,9 +29,7 @@ class MainCoordinatore: Coordinatore{
         vc.coordinatore = self
         self.naviagationController.pushViewController(vc, animated: true)
     }
-    
-
-    
+     
     func navigateTo(screen:Screens){
         switch screen {
         case .foodVC:

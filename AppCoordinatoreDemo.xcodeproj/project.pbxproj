@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3F70E4260B7213006E9532 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F70E3260B7213006E9532 /* MainTabBar.swift */; };
 		CEA8E0D1260A158E00BB11F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E0D0260A158E00BB11F4 /* AppDelegate.swift */; };
 		CEA8E0D3260A158E00BB11F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E0D2260A158E00BB11F4 /* SceneDelegate.swift */; };
 		CEA8E0D5260A158E00BB11F4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8E0D4260A158E00BB11F4 /* HomeVC.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3F70E3260B7213006E9532 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		CEA8E0CD260A158E00BB11F4 /* AppCoordinatoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCoordinatoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA8E0D0260A158E00BB11F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA8E0D2260A158E00BB11F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3F70E2260B71CE006E9532 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE3F70E3260B7213006E9532 /* MainTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		CEA8E0C4260A158E00BB11F4 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		CEA8E0CF260A158E00BB11F4 /* AppCoordinatoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE3F70E2260B71CE006E9532 /* TabBar */,
 				CEA8E0E5260A17B400BB11F4 /* Coordinatore */,
 				CEA8E0F1260A212A00BB11F4 /* Screens */,
 				CEA8E0D0260A158E00BB11F4 /* AppDelegate.swift */,
@@ -179,6 +190,7 @@
 				CEA8E0E7260A17DA00BB11F4 /* Coordinatore.swift in Sources */,
 				CEA8E0F6260A217300BB11F4 /* FoodDetailsVC.swift in Sources */,
 				CEA8E0D3260A158E00BB11F4 /* SceneDelegate.swift in Sources */,
+				CE3F70E4260B7213006E9532 /* MainTabBar.swift in Sources */,
 				CEA8E0F3260A214E00BB11F4 /* FoodVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
