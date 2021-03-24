@@ -28,7 +28,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXd-Y1-51m">
                                 <rect key="frame" x="20" y="144" width="374" height="30"/>
-                                <color key="backgroundColor" red="0.043137254899999998" green="0.49019607840000001" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="itN-2d-Otx"/>
                                 </constraints>

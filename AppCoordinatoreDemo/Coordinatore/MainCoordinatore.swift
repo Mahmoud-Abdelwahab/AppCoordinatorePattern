@@ -47,7 +47,7 @@ class MainCoordinatore: Coordinatore{
         
         let storyBoard = UIStoryboard(name: soryboardName, bundle:nil)
  
-let vc = storyBoard.instantiateViewController(withIdentifier: String(describing: type(of: VC)))
+        let vc = storyBoard.instantiateViewController(withIdentifier: String(describing: type(of: VC)))
         self.naviagationController.pushViewController(vc, animated: true)
     }
     
